@@ -1,0 +1,125 @@
+/* THESE STYLES ARE ALL GENERAL STYLES, CHAGING ANYTHING HERE WILL CHANGE IT FOR THE WHOLE APP */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333; /*dark grey*/
+  background-color: lavender;
+  background-image: url("../images/a.jpg");
+  background-repeat: repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 5px;
+  color: purple;
+  text-align: center;
+}
+
+p {
+  margin-top: 5px;
+}
+
+ul {
+  margin-top: 5px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+/* HEADER STYLING */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60px;
+  padding: 10px 0 0 10px;
+  background-color: #F8F8F8; /*very light grey*/
+  border-bottom: 2px #efefef solid;
+  box-sizing: border-box;
+}
+
+/* LOGO STYLING */
+.logo {
+  display: inline-block;
+  width: 20%;
+}
+
+.logo h1 {
+ margin: 0 auto;
+}
+
+/* NAVIGATION STYLING START */
+.main-nav {
+  display: inline-block;
+  width: 70%;
+}
+
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav ul li {
+ display: inline-block;
+}
+
+.main-nav ul li a {
+  display: inline-block;
+  padding: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+/* NAVIGATION STYLING END */
+
+.mobile-container {
+  width: 450px;
+  height: auto;
+  margin: 0 auto;
+  padding: 80px 20px 10px 20px;
+  background-color: #fff; /*white*/
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* PURPLE BUTTON STYLING START */
+.purple-btn {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  font-size: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+  background-color: purple;
+  color: white;
+  font-size: 15px;
+}
+
+.purple-btn:hover {
+  background-color: orchid;
+  color: white;
+}
+/* PURPLE BUTTON STYLING END */
+
+.nav-purple-btn {
+  display: inline-block;
+  width: 68px;
+  padding: 10px;
+  border: 1px purple solid;
+  font-size: 10px;
+  color: white;
+  margin: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+  font-size: 15px;
+  text-align: center;
+}
+
+.nav-purple-btn:hover {
+  background-color: orchid;
+  color: white;
+}

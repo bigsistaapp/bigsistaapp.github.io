@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- ALL THE CONTENT IN THE HEAD IS NOT VISIBLE TO THE USER -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big Sista</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/quiz.css" rel="stylesheet">
+  </head>
+
+  <!-- ALL THE CONTENT IN BODY IS VISIBLE TO THE USER -->
+  <body>
+    <header>
+      <!-- BIG SISTA LOGO -->
+      <div class="logo">
+        <h1>Big Sista</h1>
+      </div>
+
+      <!-- NAVIGATION -->
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+          <li><a href="cycle.html">Cycles</a></li>
+          <li><a href="sanOptions.html">Options</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- QUIZ SECTION-->
+  <section class = "mobile-container">
+    <h1 class="index-h1">Big Sista Quiz</h1>
+    <p>Please select the correct answer. Then click the "Complete Quiz" button at the end to see how well you've done</p>
+
+    <!-- Start of quiz form -->
+    <form method="get" action="quiz-results.html" onsubmit="return evalInput()">
+      <div class="input-group">
+
+        <div id="quiz-error" class="error-msg"></div>
+
+        <fieldset class="question-field">
+            <!-- question1  -->
+            <h4>Question 1</h4>
+            <p>What is menstruation?</p>
+            <input type="radio" name="question1" value=1>
+            <label>When you get your period</label> <br>
+            <input type="radio" name="question1" value=0>
+            <label>When you buy a cat</label> <br>
+            <input type="radio" name="question1" value=0>
+            <label>When you get pregnant</label> <br>
+          </fieldset>
+
+          <fieldset class="question-field">
+            <h4>Question 2</h4>
+
+            <!-- question 2  -->
+            <p>What is not a sanitary product? </p>
+            <input type="radio" name="question2" value=0>
+            <label> Pad </label> <br>
+            <input type="radio" name="question2" value=0>
+            <label> tampon </label> <br>
+            <input type="radio" name="question2" value=1>
+            <label> toilet paper </label> <br>
+          </fieldset>
+
+          <fieldset class="question-field">
+            <h4>Question 3</h4>
+
+            <!-- question3 -->
+            <p>Why should you track your menstrual cycle?</p>
+            <input type="radio" name="question3" value=0>
+            <label> To know when you are sick </label> <br>
+            <input type="radio" name="question3" value=0>
+            <label> to know when your cat is pregnant </label> <br>
+            <input type="radio" name="question3" value=1>
+            <label> To know when your next period starts </label> <br>
+          </fieldset>
+
+          <fieldset class="question-field">
+            <h4>Question 4 </h4>
+
+            <!-- question4 -->
+            <p> Menstruation is caused by being around boys</p>
+            <input type="radio" name="question4" value=0>
+            <label> true </label> <br>
+            <input type="radio" name="question4" value=1>
+            <label> false </label> <br>
+          </fieldset>
+
+          <fieldset class="question-field">
+            <h4>Question 5 </h4>
+
+            <!-- question5 -->
+            <p> Having sex on your period means you will not fall pregnant </p>
+            <input type="radio" name="question5" value=0>
+            <label> true </label> <br>
+            <input type="radio" name="question5" value=1>
+            <label> false </label> <br>
+          </fieldset>
+
+          <fieldset class="question-field">
+            <h4>Question 6 </h4>
+
+            <!-- question6 -->
+            <p>Your menstruation cycle is the bodies natural way of controlling fertility</p>
+            <input type="radio" name="question6" value=1>
+            <label> true </label><br>
+            <input type="radio" name="question6" value=0>
+            <label> false </label> <br>
+          </fieldset>
+
+          <fieldset class="question-field">
+          <h4> Question 7 </h4>
+
+            <!-- question7-->
+            <p> Everybody gets cramps when they are on their period </p>
+            <input type="radio" name="question7" value=0>
+            <label> true </label><br>
+            <input type="radio" name="question7" value=1>
+            <label> false </label> <br>
+          </fieldset>
+
+          <fieldset class="question-field">
+            <h4> Question 8 </h4>
+
+            <!-- question8 -->
+            <p> Menopause is the last menstrual flow of a womans life </p>
+            <input type="radio" name="question8" value=1>
+            <label> true </label><br>
+            <input type="radio" name="question8" value=0>
+            <label> false </label> <br>
+          </fieldset>
+
+          <fieldset class="question-field">
+            <h4> Question 9 </h4>
+
+            <!-- question9 -->
+            <p> Exercising too much can affect your menstrual flow </p>
+            <input type="radio" name="question9" value=1>
+            <label> true </label> <br>
+            <input type="radio" name="question9" value=0>
+            <label> false </label> <br>
+          </fieldset>
+
+          <fieldset class="question-field">
+            <h4> Question 10 </h4>
+
+            <!-- question10 -->
+            <p> When teens first start having their periods, their menstrual cycles are always on schedule </p>
+            <input type="radio" name="question10" value=0>
+            <label> true </label> <br>
+            <input type="radio" name="question10" value=1>
+            <label> false </label> <br>
+          </fieldset>
+
+        <input class="purple-btn" type="submit" value="Complete Quiz">
+      </div>
+    </form>
+    <!-- End of quiz form -->
+  </section>
+
+    <script src="js/quiz.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

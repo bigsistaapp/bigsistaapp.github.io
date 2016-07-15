@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- ALL THE CONTENT IN THE HEAD IS NOT VISIBLE TO THE USER -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big Sista</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/calculator.css" rel="stylesheet">
+  </head>
+
+  <!-- ALL THE CONTENT IN BODY IS VISIBLE TO THE USER -->
+  <body>
+    <header>
+      <!-- BIG SISTA LOGO -->
+      <div class="logo">
+        <h1>Big Sista</h1>
+      </div>
+
+      <!-- NAVIGATION -->
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+          <li><a href="cycle.html">Cycles</a></li>
+          <li><a href="sanOptions.html">Options</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="mobile-container">
+      <h1>Menstrual Calculator</h1>
+      <p>Did you know that there are different menstruation cycles. The big sista period calculator will help calculate your menstrual cycle and tell you when your next period is due.</p>
+
+      <!-- CALCULATOR FORM -->
+      <div>
+        <form method="get" action="cycle.html">
+          <div class="input-group">
+            <label class="cal-label" for="number"> Only enter the date(number) of last period </label>
+            <input type="number" name="last" placeholder="The first day of your last period">
+            <label class="cal-label" for="number">Only enter the date(number) of current period</label>
+            <input type="number" name="current" placeholder="The first day of your current period">
+            <button type="submit" name="submit">Calculate Cycle</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
